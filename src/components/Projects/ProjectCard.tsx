@@ -12,6 +12,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <motion.article
       className="group grid gap-8 border-t border-line py-12 md:grid-cols-[1.1fr_0.9fr] md:items-center md:gap-16 md:py-16"
+      initial={reduce ? false : { opacity: 0, y: 18 }}
+      whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2, margin: "0px 0px -8% 0px" }}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       whileHover={
         reduce
           ? undefined
@@ -22,7 +26,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
       }
     >
       {project.image ? (
-        <div className="overflow-hidden bg-line/40">
+        <motion.div
+          className="overflow-hidden bg-line/40"
+          initial={reduce ? false : { opacity: 0, scale: 1.05 }}
+          whileInView={reduce ? undefined : { opacity: 1, scale: 1 }}
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+        >
           <img
             src={project.image}
             alt={project.imageAlt ?? `Prévia do projeto ${project.title}`}
@@ -30,7 +40,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             decoding="async"
             className="aspect-[16/10] h-auto w-full object-cover transition-transform duration-700 ease-out motion-safe:group-hover:scale-[1.03]"
           />
-        </div>
+        </motion.div>
       ) : (
         <div
           aria-hidden="true"
