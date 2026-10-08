@@ -1,0 +1,71 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#0F1F2F"/>
+  <rect x="120" y="76" width="1360" height="848" rx="32" fill="#13283D"/>
+
+  <text x="210" y="155" fill="#EAF2FF" font-size="36" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="600">brisa</text>
+
+  <text x="700" y="285" fill="#EAF2FF" font-size="28" font-family="ui-sans-serif, system-ui, sans-serif" letter-spacing="3" opacity="0.82">QUINTA-FEIRA, 8 DE OUTUBRO</text>
+  <text x="780" y="350" fill="#EAF2FF" font-size="52" font-family="ui-serif, Georgia, serif" font-weight="500">São Paulo</text>
+
+  <g>
+    <circle cx="800" cy="430" r="52" fill="#E9D78B"/>
+    <path d="M760 500C720 500 688 468 688 429C688 392 717 361 752 357C770 327 806 306 845 310C880 314 910 338 924 369C955 371 982 396 982 429C982 466 952 496 915 496H760Z" fill="#D9E0E8"/>
+    <path d="M720 532H875" stroke="#D9E0E8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <text x="700" y="600" fill="#F8FBFF" font-size="198" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="300">24°</text>
+  <text x="760" y="660" fill="#EAF2FF" font-size="30" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.82">Parcialmente nublado</text>
+  <text x="728" y="705" fill="#EAF2FF" font-size="24" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.72">Máxima 27° · Mínima 18°</text>
+
+  <g>
+    <rect x="160" y="750" width="260" height="120" rx="22" fill="#1B2F3F"/>
+    <text x="206" y="798" fill="#EAF2FF" font-size="20" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.72">Sensação térmica</text>
+    <text x="206" y="845" fill="#F8FBFF" font-size="40" font-family="ui-sans-serif, system-ui, sans-serif">26°</text>
+
+    <rect x="445" y="750" width="260" height="120" rx="22" fill="#1B2F3F"/>
+    <text x="495" y="798" fill="#EAF2FF" font-size="20" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.72">Umidade</text>
+    <text x="495" y="845" fill="#F8FBFF" font-size="40" font-family="ui-sans-serif, system-ui, sans-serif">68%</text>
+
+    <rect x="730" y="750" width="260" height="120" rx="22" fill="#1B2F3F"/>
+    <text x="800" y="798" fill="#EAF2FF" font-size="20" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.72">Vento</text>
+    <text x="800" y="845" fill="#F8FBFF" font-size="40" font-family="ui-sans-serif, system-ui, sans-serif">12 km/h</text>
+
+    <rect x="1015" y="750" width="260" height="120" rx="22" fill="#1B2F3F"/>
+    <text x="1062" y="798" fill="#EAF2FF" font-size="20" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.72">Pressão</text>
+    <text x="1062" y="845" fill="#F8FBFF" font-size="40" font-family="ui-sans-serif, system-ui, sans-serif">1014 hPa</text>
+  </g>
+
+  <text x="190" y="915" fill="#EAF2FF" font-size="26" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.8">Olhando adiante</text>
+
+  <g>
+    <rect x="150" y="935" width="200" height="120" rx="18" fill="#1B2F3F"/>
+    <text x="200" y="975" fill="#EAF2FF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.7">Sex</text>
+    <circle cx="220" cy="1015" r="10" fill="#EAF2FF" fill-opacity="0.9"/>
+    <path d="M214 1015L220 1019L228 1011" stroke="#13283D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="188" y="1045" fill="#F8FBFF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif">19° / 28°</text>
+
+    <rect x="380" y="935" width="200" height="120" rx="18" fill="#1B2F3F"/>
+    <text x="430" y="975" fill="#EAF2FF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.7">Sáb</text>
+    <circle cx="450" cy="1015" r="10" fill="#EAF2FF" fill-opacity="0.9"/>
+    <path d="M443 1015H457" stroke="#13283D" stroke-width="3" stroke-linecap="round"/>
+    <text x="408" y="1045" fill="#F8FBFF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif">20° / 29°</text>
+
+    <rect x="610" y="935" width="200" height="120" rx="18" fill="#1B2F3F"/>
+    <text x="660" y="975" fill="#EAF2FF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.7">Dom</text>
+    <circle cx="680" cy="1015" r="10" fill="#EAF2FF" fill-opacity="0.9"/>
+    <path d="M673 1017C677 1011 685 1011 689 1017" stroke="#13283D" stroke-width="3" stroke-linecap="round"/>
+    <text x="637" y="1045" fill="#F8FBFF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif">18° / 25°</text>
+
+    <rect x="840" y="935" width="200" height="120" rx="18" fill="#1B2F3F"/>
+    <text x="895" y="975" fill="#EAF2FF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.7">Seg</text>
+    <circle cx="915" cy="1015" r="10" fill="#EAF2FF" fill-opacity="0.9"/>
+    <path d="M908 1017C912 1011 920 1011 924 1017" stroke="#13283D" stroke-width="3" stroke-linecap="round"/>
+    <text x="875" y="1045" fill="#F8FBFF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif">17° / 23°</text>
+
+    <rect x="1070" y="935" width="200" height="120" rx="18" fill="#1B2F3F"/>
+    <text x="1128" y="975" fill="#EAF2FF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif" opacity="0.7">Ter</text>
+    <circle cx="1148" cy="1015" r="10" fill="#EAF2FF" fill-opacity="0.9"/>
+    <path d="M1141 1017C1145 1011 1153 1011 1157 1017" stroke="#13283D" stroke-width="3" stroke-linecap="round"/>
+    <text x="1097" y="1045" fill="#F8FBFF" font-size="18" font-family="ui-sans-serif, system-ui, sans-serif">18° / 26°</text>
+  </g>
+</svg>
