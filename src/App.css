@@ -14,7 +14,7 @@
 .monogram { font-size: 24px; font-weight: 700; letter-spacing: 0; }
 
 .site-header nav { display: flex; align-items: center; gap: 34px; }
-.site-header nav a, .eyebrow, .section-index, .scroll-cue, .weather-topline, .weather-details, .bier-caption, .side-caption, .skills-label, .project-number, .location, .site-footer {
+.site-header nav a, .eyebrow, .section-index, .scroll-cue, .bier-caption, .side-caption, .skills-label, .project-number, .location, .site-footer {
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 1.8px;
@@ -116,7 +116,7 @@
 
 .project-info { padding-top: 21px; }
 .project-title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-.project-title-row h2 { margin: 0; color: var(--paper); font-size: 27px; font-weight: 600; letter-spacing: 0; line-height: 1.2; }
+.project-title-row h3 { margin: 0; color: var(--paper); font-size: 27px; font-weight: 600; letter-spacing: 0; line-height: 1.2; }
 .project-number { color: #686864; font-size: 8px; letter-spacing: 1px; }
 .project-info > p { min-height: 52px; margin: 12px 0 17px; color: #92928e; font-size: 14px; line-height: 1.7; }
 .text-link { display: inline-flex; align-items: center; gap: 10px; padding-bottom: 5px; border-bottom: 1px solid #666660; color: #e3e3df; font-size: 10px; letter-spacing: 1.3px; text-transform: uppercase; transition: color 180ms ease, border-color 180ms ease; }
@@ -161,10 +161,8 @@
 @media (max-width: 900px) {
   .hero h1 { font-size: 82px; }
   .project-grid { gap: 17px; }
-  .project-title-row h2 { font-size: 22px; }
+  .project-title-row h3 { font-size: 22px; }
   .weather-visual { padding: 14px; }
-  .weather-temp { font-size: 63px; }
-  .weather-details { font-size: 6px; }
   .about-layout { gap: 8%; }
   .contact { gap: 8%; }
 }
@@ -187,9 +185,7 @@
   .project-grid { grid-template-columns: 1fr; gap: 41px; }
   .project-visual { aspect-ratio: 1.2; }
   .weather-visual { padding: 20px; }
-  .weather-temp { font-size: 72px; }
-  .weather-details { gap: 3px; font-size: 6px; }
-  .project-title-row h2 { font-size: 25px; }
+  .project-title-row h3 { font-size: 25px; }
   .project-info > p { min-height: 0; margin-bottom: 15px; }
   .bier-mark { font-size: 76px; }
   .about { padding-top: 73px; padding-bottom: 89px; }
@@ -206,6 +202,4 @@
   .site-header nav { gap: 11px; }
   .site-header nav a { font-size: 8px; }
   .hero h1 { font-size: 43px; }
-  .weather-topline { font-size: 7px; }
-  .weather-details { gap: 3px; font-size: 6px; }
 }
